@@ -32,8 +32,8 @@ const register = async (req, res) => {
     role,
     verificationToken,
   })
-  const origin = 'https://react-node-user-workflow-front-end.netlify.app/)'
-  // const oldOrigin = 'https://localhost:3000;
+  //const newOrigin = 'https://react-node-user-workflow-front-end.netlify.app/)'
+   const origin = 'https://localhost:3000;
 
   // const tempOrigin = req.get('origin');
   // const protocol = req.protocol;
